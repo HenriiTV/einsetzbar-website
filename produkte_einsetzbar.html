@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <title>UNSERE GÖTTLICHEN PRODUKTE - EINSETZBAR</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            background-color: #000; /* Schwarz für den maximalen Kontrast zum Feuer */
+            color: #fff;
+        }
+
+        .fire-text {
+            font-size: 60px;
+            font-family: 'Impact';
+            color: #ff0;
+            text-shadow: 0 0 20px #f00, 0 0 30px #f00, 0 0 40px #f00;
+            animation: burn 0.5s infinite alternate;
+        }
+
+        @keyframes burn {
+            from { text-shadow: 0 0 10px #f00, 0 0 20px #ff0; }
+            to { text-shadow: 0 0 30px #f00, 0 0 50px #ff0; transform: scale(1.05); }
+        }
+
+        .product-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            padding: 20px;
+        }
+
+        .product-card {
+            background: linear-gradient(180deg, #444, #111);
+            border: 5px solid #ffd700;
+            padding: 15px;
+            text-align: center;
+            transition: 0.1s;
+        }
+
+        .product-card:hover {
+            border-color: #f0f;
+            cursor: help;
+        }
+
+        .price-tag {
+            background: #0f0;
+            color: #000;
+            font-size: 30px;
+            font-weight: bold;
+            display: inline-block;
+            padding: 5px;
+            transform: rotate(-10deg);
+        }
+
+        .section-header {
+            background: #f00;
+            padding: 10px;
+            font-size: 40px;
+            margin-top: 50px;
+            border: 10px ridge silver;
+        }
+    </style>
+</head>
+<body>
+
+    <header class="master-header">
+        <h1 class="fire-text">DIE EINSETZBAR PRODUKT-INVASION</h1>
+        <nav class="master-nav">
+            <a href="index.html" class="master-link">ZURÜCK ZUM IMPERIUM</a> | 
+            <a href="team_einsetzbar.html" class="master-link">DIE MEISTER KONTAKTIEREN</a>
+        </nav>
+    </header>
+
+    <marquee scrollamount="20" bgcolor="yellow" style="color:black; font-weight:bold;">
+        +++ MINI-KÜHLSCHRANK NUR 35€ +++ SCHALLPLATTEN-EINSATZ FÜR DEN VIBE +++ TRESOR-EINSATZ (SICHER VOR MEALMATRIX-DIEBEN) +++
+    </marquee>
+
+    <div class="section-header">KINDERZIMMER & CHAOS-KONTROLLE</div>
+    <div class="product-grid">
+        <div class="product-card">
+            <h3>Schubladen-Einsatz</h3>
+            <p>Für Stifte und Spielzeug. Oscar nutzt ihn für seine Goldbarren.</p>
+            <div class="price-tag">NUR 6,99€</div>
+        </div>
+        <div class="product-card">
+            <h3>Mini-Kühlschrank-Einsatz</h3>
+            <p>Eiskalte Drinks direkt im Regal! MealMatrix kann nur heiß, wir können COOL!</p>
+            <div class="price-tag">34,99€</div>
+            <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExOHR0amZ4Z3Y0Z3R4Z3Y0Z3R4Z3Y0Z3R4Z3Y0Z3R4JmVwPXYxX2ludGVybmFsX2dpZl9ieV9pZCBhbmRfaWQmY3Q9Zw/3o7TKMGpxxfsEeoU6I/giphy.gif" width="100">
+        </div>
+        <div class="product-card">
+            <h3>Tresor-Einsatz</h3>
+            <p>Abschließbar. Hier lagert Henri die Werbegeheimnisse.</p>
+            <div class="price-tag">14,99€</div>
+        </div>
+    </div>
+
+    <div class="section-header">FÜR DEINE VIECHER (TIER-EINSÄTZE)</div>
+    <div class="product-grid">
+        <div class="product-card">
+            <h3>Katzenhöhle</h3>
+            <p>Stabil integriert. Deine Katze wird dich mehr lieben als die MealMatrix.</p>
+            <div class="price-tag">19,99€</div>
+        </div>
+        <div class="product-card" style="border-color: red;">
+            <h3>Externer Katzenbaum</h3>
+            <p>Zum Anklicken! Laurin hat das System patentiert!</p>
+            <div class="price-tag">34,99€</div>
+        </div>
+    </div>
+
+    <div class="section-header">JONAS' WERKSTATT-ECKE</div>
+    <div class="product-grid">
+        <div class="product-card">
+            <h3>Akku-Lade-Einsatz</h3>
+            <p>Power für deine Maschinen. Nicht so schwach wie die MealMatrix-Batterie.</p>
+            <div class="price-tag">11,99€</div>
+        </div>
+        <div class="product-card">
+            <h3>Drehbarer Farbdosen-Einsatz</h3>
+            <p>Stilecht sortieren. Henri's Lieblings-Tool.</p>
+            <div class="price-tag">11,99€</div>
+        </div>
+    </div>
+
+    <div class="shittalk-banner">
+        WUSSTEST DU? EINSETZBAR PRODUKTE BRAUCHEN KEINE SOFTWARE-UPDATES! <br>
+        SIE FUNKTIONIEREN EINFACH, WEIL JONAS SIE GEBAUT HAT!
+    </div>
+
+    <footer style="text-align: center; padding: 50px;">
+        <h2 class="fire-text">SEI KEIN BARBAR...</h2>
+        <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExNHR0amZ4Z3Y0Z3R4Z3Y0Z3R4Z3Y0Z3R4Z3Y0Z3R4JmVwPXYxX2ludGVybmFsX2dpZl9ieV9pZCBhbmRfaWQmY3Q9Zw/L98dbCwE8GaW89B45V/giphy.gif" width="200">
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
